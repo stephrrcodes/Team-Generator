@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: teal;
+    --secondary: white;
+    --third: purple;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card-header {
+    background-color: var(--third);
+    color: var(--secondary);
+}
+
+.card-body {
+    background-color: var(--secondary);
+    color: var(black);
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
